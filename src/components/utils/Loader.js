@@ -27,7 +27,7 @@ export default function Loader() {
   return (
     <div className={`loader ${active ? 'loader--active' : ''}`}>
       <div className="loader__container">
-        <img src="/images/png/glasses.png"  width="15%" alt="Logo" />
+        <img src="/images/png/hidden.png"  width="15%" alt="Logo" />
       </div>
     </div>
   )

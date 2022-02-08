@@ -43,7 +43,8 @@ const mintNFT = async(amount, price, state) => {
 export default function Mint() {
   const [walletAddress, setWallet] = useState("");  
   const [tokenNum, setTokenNum] = useState(1);
-  const [supply, setSupply] = useState(0);
+  // const [supply, setSupply] = useState(0);
+  const supply = 0;
   const [publicsaledate, setPublicsaledate] = useState(new Date("12 January 2022 16:00:00 UTC").getTime());
   const [timerInterval, setTimerInterval] = useState(null);
   const [presaleState, setPresaleState] = useState(false);
@@ -107,9 +108,9 @@ export default function Mint() {
     async function fetchData() {
       const {address} = await getCurrentWalletConnected();   
       setWallet(address);      
-      contract.methods.totalSupply().call().then((_supply) => {        
-        setSupply(_supply);        
-      }).catch((err) => console.log(err))
+      // contract.methods.totalSupply().call().then((_supply) => {        
+      //   setSupply(_supply);        
+      // }).catch((err) => console.log(err))
       addWalletListener();     
       // console.log(supply);  
     }
@@ -119,7 +120,7 @@ export default function Mint() {
   return (
     <div 
       className="mint-page" 
-      style={{backgroundImage: "url('./images/png/mint_background.png')"}}
+      style={{backgroundImage: "url('./images/png/banner.png')"}}
     >
       <div className="d-flex justify-content-end mint-container">
         <button className="connect" type="button" onClick={handleConnect}>
@@ -135,15 +136,15 @@ export default function Mint() {
         </button>
       </div>
       <div className="mint-assets-content mb-4">
-        <img src="/images/gif/mintpage_gif.gif" width={200} height={200} alt="" />
+        <img src="/images/png/gallery/1.png" width={200} height={200} alt="" />
       </div>
       <div className="mint-desc-container">
         <div className="nft-panel">
-          <div className="supply">JOIN After Party Ape Club</div>
+          <div className="supply">JOIN Rich Rhino Ski Club</div>
           {/* {
             presaleState? <div className="supply">Total 8420</div> : <div className="supply">{supply} / 8420</div>
           } */}
-          <div className="supply">{supply} / 8420</div>
+          <div className="supply">{supply} / 8888</div>
           <div className="nft-counter">            
             <div className="counter-symbol counter-minus" onClick={decreaseTokenNumber}></div>
             <div className="amount">{tokenNum}</div>

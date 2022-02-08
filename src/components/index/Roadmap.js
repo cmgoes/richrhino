@@ -11,7 +11,7 @@ export default function Roadmap() {
         {
           open: true,
           title: "20%",
-          text: "1 ETH each will be given away to 5 random AFTP holders.",
+          text: "Free nfts will be given away to 5 random Rhino holders.",
           isHtml: false,
         },
         {
@@ -22,13 +22,13 @@ export default function Roadmap() {
         },
         {
           open: true,
-          title: "60%",
+          title: "50%",
           text: "10 ETH added to the Community Wallet.",
           isHtml: false,
         },
         {
           open: true,
-          title: "80%",
+          title: "70%",
           text: "We'll be raffling $5,000 for a week.",
           isHtml: false,
         },
@@ -42,23 +42,23 @@ export default function Roadmap() {
     },
     {
       index: 1,
-      image: { src: "/images/png/phase_2.png", rotate: true },
-      title: "PHASEII: $BOOZE",
-      text: "Once all our cool AFTP’s are minted, we’ll start working on the smart contract that will give each holder an opportunity to earn passive income through staking. 1 AFTP will generate 1$BOOZE a day with real world use. Join our Discord community so you don’t miss all of our updates and announcements.",
+      image: { src: "/images/gif/phase_2.gif", rotate: false },
+      title: "PHASEII:",
+      text: "Once all our cool Rhino’s are minted.",
       items: [],
     },
     {
       index: 2,
       image: { src: "/images/gif/phase_3.gif", rotate: false },
-      title: "PHASEIII: CUSTOM AFTP",
-      text: "Holders of 10 or more AFTP will receive a custom 1 of 1 NFT designed specifically for them. Holders will be able to pick exclusive traits and create a dream AFTP. Submissions will be available through verifying the ownership and filling out a form.",
+      title: "PHASEIII: CUSTOM Rhinos",
+      text: "Holders of 10 or more Rhinos will receive a custom 1 of 1 NFT designed specifically for them. Holders will be able to pick exclusive traits and create a dream Rhinos. Submissions will be available through verifying the ownership and filling out a form.",
       items: [],
     },
     {
       index: 3,
       image: { src: "/images/gif/phase_4.gif", rotate: false },
-      title: "PHASE IV: COMMUNITY VAULT. DAO ",
-      text: "DAO will be established to govern the community wallet. 1 AFTP=1 VOTE. DAO will decide on any future investments, charities, fractionalized ownership of Blue Chip NFT purchases and distribution among holders. We will set up partnerships with other projects, prioritizing new projects and new artists. DAO will be in charge of the creative  process behind these future collaborations.",
+      title: "PHASE IV: CUSTOM Rhinos",
+      text: "Holders of 10 or more Rhinos will receive a custom 1 of 1 NFT designed specifically for them. Holders will be able to pick exclusive traits and create a dream Rhinos. Submissions will be available through verifying the ownership and filling out a form.",
       items: [],
     },
   ]
@@ -77,7 +77,7 @@ export default function Roadmap() {
             collabs and events are coming.
           </p>
           <p className="text-center">
-            Being part of the After Party Ape Club will give you the right to an
+            Being part of the Rich Rhino Ski Club will give you the right to an
             annual bonus based on the number of NFTs (from our collection) you
             possess (NFT giveaways, ETH, graphic cards, phones, certificates).
           </p>
@@ -90,15 +90,7 @@ export default function Roadmap() {
           ))}
         </div>
       </div>
-      <br /><br /><br />
-      {/* <div className="row justify-content-center">
-        <div className="col-12 col-md-6 text-center">
-          <a className="btn btn--purple text--medium btn--active" href="/whitepaper">
-            Open Whitepaper</a
-          >
-        </div>
-      </div>
-      <br /> */}
+      <br /><br /><br />      
       <div className="row justify-content-center">
         <p className="text-center">
           Follow us and stay tuned. It’s just the beginning!

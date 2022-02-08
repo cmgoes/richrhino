@@ -8,20 +8,20 @@ export default function Faq() {
   const items = [
     {
       index: 0,
-      q: "Why APES?",
-      a: "Have you ever asked yourself what apes do after the party? We did and decided to show our vision. We just love apes. It’s amazing to see how NFT community created the whole story and each upcoming project brings something new to the ape movement.",
+      q: "Why Rich Rhino?",
+      a: "It’s amazing to see how Rich Rhino community created the whole story.",
       type: types.text,
     },
     {
       index: 1,
       q: "When will I be able to mint AFTP? And how much?",
-      a: "1,500 AFTPs will be available for whitelisted members to mint on presale for .03 ETH+gas and public sale will be available for everyone for .06ETH +gas. Pre-sale starts 12th January 11 AM EST and will end in 24 hours. Public Sale starts 13th January 11 AM EST.",
+      a: "1,111 Rhinos will be available for whitelisted members to mint on presale for .06 ETH+gas and public sale will be available for everyone for .08ETH +gas. Pre-sale starts 12th Februray 12 AM EST and will end in 24 hours. Public Sale starts 13th Feburary 12 AM EST.",
       type: types.text,
     },
     {
       index: 2,
       q: "Royalties?",
-      a: "AFTP gets 10% of secondary market royalties. 20% of all future secondary sales royalties will be added to the Community Wallet.",
+      a: "Rhinos gets 10% of secondary market royalties. 20% of all future secondary sales royalties will be added to the Community Wallet.",
       type: types.text,
     },
     {
@@ -35,15 +35,13 @@ export default function Faq() {
         },
         {
           value: [
-            "Always follow our official links",
-            "Join our After Party as soon as we start, this way you will see our progress. Scammers can buy followers, make bots and etc. But there are certain things they can’t fake. What about our hidden gems that we won’t disclose until certain time?",
-            "#DYOR - we want to encourage all people that want to purchase NFTs to start paying attention to the safety of websites they use and only follow official links. Scammers can access any data they want, but again, it’s a matter of time till everybody will find the truth.",
+            "Always follow our official links",          
           ],
           type: types.list,
         },
         {
           value:
-            "As we already mentioned, we’ll pay a lot of attention to this topic, because we don’t want any of our members to become victims of dirty scammers. We are family and we should stand up for each other, that’s what real ones do.",
+            "As we already mentioned, we’ll pay a lot of attention to this topic, because we don’t want any of our members to become victims of dirty scammers. We are family and we should stand up for each other.",
           type: types.text,
         },
       ],

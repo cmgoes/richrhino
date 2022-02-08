@@ -3,27 +3,27 @@ import SectionTitle from "../SectionTitle";
 export default function Team() {
   const team = [
     {
-      image: "/images/png/team/JANE.png",
-      alt: "AFTP Yolo",
-      text: "JANE",
-      subtext: "Legendary AFTP Founder. Artist.",
+      image: "/images/png/team/1.png",
+      alt: "Rich Rhino Founder",
+      text: "RichRhino",
+      subtext: "Founder. Artist.",
     },
     {
-      image: "/images/png/team/Thomas.png",
-      alt: "AFTP Bag",
-      text: "THOMAS",
+      image: "/images/png/team/2.png",
+      alt: "Rich Rhino Founder",
+      text: "RichRhino",
       subtext: "Advisor. Crypto Investor.",
     },
     {
-      image: "/images/png/team/nharpa.png",
-      alt: "AFTP Community.",
-      text: "NHARPA",
-      subtext: "AFTP Hero, Project Manager.",
+      image: "/images/png/team/3.png",
+      alt: "RichRhino Community.",
+      text: "RichRhino",
+      subtext: "Project Manager.",
     },
     {
-      image: "/images/png/team/whitewolf.png",
-      alt: "AFTP Dev",
-      text: "WhiteWolf",
+      image: "/images/png/team/4.png",
+      alt: "RichRhino Dev",
+      text: "RichRhino",
       subtext: "Blockchain, Core developer.",
     },
   ];
@@ -45,21 +45,13 @@ export default function Team() {
               className="col-12 col-md-6 col-lg-3 text-center"
             >
               <img src={tm.image} width="65%" alt={tm.alt} />
-              <p className="text-center">{ tm.text }</p>
+              <p className="text-center pt-3">{ tm.text }</p>
               <p className="text--small text-center text--overflow-hide">
                 { tm.subtext }
               </p>
             </div>
           ))}
-        </div>
-        <div className="row justify-content-center">
-          <div className="col-12">
-            <br /><br />
-            <p className="text--small text-center">
-              *We are not affiliated with the Bored Ape Yacht Club.
-            </p>
-          </div>
-        </div>
+        </div>        
       </div>
     </section>
   )
